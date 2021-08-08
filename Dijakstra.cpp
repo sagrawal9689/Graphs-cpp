@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    int n, m;
-    cin >> n >> m;
+    int V, E;
+    cin >> V >> E;
 
-    vector<pair<int, int>> adj[n + 1];
+    vector<pair<int, int>> adj[V + 1];
 
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < E; i++)
     {
         int x, y, z;
         cin >> x >> y >> z;
